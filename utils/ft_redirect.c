@@ -6,11 +6,11 @@
 /*   By: zmakhkha <zmakhkha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 15:09:59 by zmakhkha          #+#    #+#             */
-/*   Updated: 2023/05/01 15:11:02 by zmakhkha         ###   ########.fr       */
+/*   Updated: 2023/05/02 14:22:15 by zmakhkha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../header.h"
+#include "../header.h"
 
 int	ft_vreerator(char*str, char re)
 {
@@ -37,17 +37,17 @@ int	ft_vreerator(char*str, char re)
 	return (0);
 }
 
-int	ft_validouble(char *str, char re)
-{
-	int	i;
+// int	ft_validouble(char *str, char re)
+// {
+// 	int	i;
 
-	i = 0;
-	if (str[i] && str[i + 1])
-	{
-		if (str[i] == re && str[i + 1] == re)
-			return (1);
-		else
-			return (0);
-	}
-	return (0);
-}
+// 	i = 0;
+// 	if (str[i] && str[i + 1])
+// 	{
+// 		if (str[i] == re && str[i + 1] == re)
+// 			return (1);
+// 		else
+// 			return (0);
+// 	}
+// 	return (0);
+// }

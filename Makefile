@@ -6,15 +6,22 @@
 #    By: zmakhkha <zmakhkha@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/01 15:01:28 by zmakhkha          #+#    #+#              #
-#    Updated: 2023/05/01 15:02:14 by zmakhkha         ###   ########.fr        #
+#    Updated: 2023/05/02 13:58:51 by zmakhkha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = minishell
 FT_PATH = libft/libft.a
-SRC =	common_files/lexer/ft_check_hdoc.c \
-
-			main.c
+SRC = minishell.c \
+ft_main_paring.c \
+Parsing/tokenizer/ft_oprt_wrd.c \
+Parsing/tokenizer/ft_red_quote.c \
+Parsing/tokenizer/ft_str_tok.c \
+utils/ft_history.c \
+utils/ft_prmpt.c \
+utils/ft_redirect.c \
+utils/ft_token.c \
+ft_main_paring.c \
 
 OBJ = $(SRC:.c=.o)
 

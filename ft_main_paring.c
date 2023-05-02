@@ -6,15 +6,17 @@
 /*   By: zmakhkha <zmakhkha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 13:01:49 by zmakhkha          #+#    #+#             */
-/*   Updated: 2023/05/01 13:43:16 by zmakhkha         ###   ########.fr       */
+/*   Updated: 2023/05/02 14:22:33 by zmakhkha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "header.h"
 
-void    ft_main_parsing(int n, char **v)
-{
-    status = SUCC;
-    ft_prompt();
+// void    ft_main_parsing(int n, char **v)
+// {
+//     (void)n;
+//     (void)v;
+//     g_status = SUCC;
+//     ft_prompt();
     
-}
+// }

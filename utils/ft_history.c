@@ -6,11 +6,18 @@
 /*   By: zmakhkha <zmakhkha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 13:30:04 by zmakhkha          #+#    #+#             */
-/*   Updated: 2023/05/01 13:30:24 by zmakhkha         ###   ########.fr       */
+/*   Updated: 2023/05/02 14:06:02 by zmakhkha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../header.h"
+
+void	ft_exit(char * msg, int stat)
+{
+	printf("%s\n", msg);
+	g_status = stat;
+	exit(stat);
+}
 
 // Add a file history
 int	ft_add_history(char *str)

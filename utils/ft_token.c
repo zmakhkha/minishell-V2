@@ -6,11 +6,11 @@
 /*   By: zmakhkha <zmakhkha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 14:06:26 by zmakhkha          #+#    #+#             */
-/*   Updated: 2023/05/01 14:10:44 by zmakhkha         ###   ########.fr       */
+/*   Updated: 2023/05/02 13:43:57 by zmakhkha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../header.h"
+#include "../header.h"
 
 
 t_token	*ft_add_token(char *str, int type)
